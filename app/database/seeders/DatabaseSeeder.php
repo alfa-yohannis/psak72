@@ -24,7 +24,8 @@ class DatabaseSeeder extends Seeder
             TipeNasabahSeeder::class,
             NasabahSeeder::class,
             MasterDataSeeder::class, 
-            SuratPemesananSeeder::class
+            SuratPemesananSeeder::class,
+            PPJBSeeder::class,
         ]);
         
     }
