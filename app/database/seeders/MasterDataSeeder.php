@@ -36,8 +36,8 @@ class MasterDataSeeder extends Seeder
 
         // --- LOKASI ---
         Lokasi::insert([
-            ['KD_LOKASI' => '26'],
-            ['KD_LOKASI' => '017'],
+            ['KD_LOKASI' => '37'],   // 26 replaced with 37
+            ['KD_LOKASI' => '128'],  // 017 replaced with 128
         ]);
 
         // --- TBL_TOWER ---
@@ -54,8 +54,8 @@ class MasterDataSeeder extends Seeder
 
         // --- TIPE ---
         Tipe::insert([
-            ['KD_TIPE' => 'H0', 'KD_JENIS' => 'J001'],
-            ['KD_TIPE' => 'BRNS2', 'KD_JENIS' => 'J002'],
+            ['KD_TIPE' => 'G1',    'KD_JENIS' => 'J001'], // H0 replaced with G1
+            ['KD_TIPE' => 'CSMT3', 'KD_JENIS' => 'J002'], // BRNS2 replaced with CSMT3
         ]);
 
         // --- STOK ---
@@ -63,17 +63,17 @@ class MasterDataSeeder extends Seeder
             [
                 'STOK_ID'       => 1,
                 'KD_PERUSAHAAN' => 'PR001',
-                'KD_TIPE'       => 'H0',       // first segment of H0/26
+                'KD_TIPE'       => 'G1',    
                 'KD_JENIS'      => 'J001',
-                'KD_LOKASI'     => '26',       // second segment of H0/26
+                'KD_LOKASI'     => '37',    
                 'KD_TOWER'      => 'T001',
             ],
             [
                 'STOK_ID'       => 2,
                 'KD_PERUSAHAAN' => 'PR002',
-                'KD_TIPE'       => 'BRNS2',    // first segment of BRNS2/017
+                'KD_TIPE'       => 'CSMT3', 
                 'KD_JENIS'      => 'J002',
-                'KD_LOKASI'     => '017',      // second segment of BRNS2/017
+                'KD_LOKASI'     => '128',  
                 'KD_TOWER'      => 'T002',
             ],
         ]);
