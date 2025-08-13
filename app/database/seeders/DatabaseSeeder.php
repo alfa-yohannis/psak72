@@ -28,6 +28,8 @@ class DatabaseSeeder extends Seeder
             PPJBSeeder::class,
             SupportingTransaksiAngsuranSeeder::class,
             Csmt3128AngsuranSeeder::class,
+            G137AngsuranSeeder::class,
+            SerahTerimaSeeder::class,
         ]);
         
     }
