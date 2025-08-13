@@ -26,6 +26,8 @@ class DatabaseSeeder extends Seeder
             MasterDataSeeder::class, 
             SuratPemesananSeeder::class,
             PPJBSeeder::class,
+            SupportingTransaksiAngsuranSeeder::class,
+            Csmt3128AngsuranSeeder::class,
         ]);
         
     }

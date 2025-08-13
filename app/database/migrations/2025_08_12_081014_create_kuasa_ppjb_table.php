@@ -13,11 +13,11 @@ return new class extends Migration {
 
             $table->foreign('PPJB_ID')
                   ->references('PPJB_ID')->on('PPJB')
-                  ->cascadeOnUpdate()->noActionOnDelete();
+                  ->noActionOnUpdate()->noActionOnDelete();
 
             $table->foreign('NASABAH_ID')
                   ->references('NASABAH_ID')->on('NASABAH')
-                  ->cascadeOnUpdate()->noActionOnDelete();
+                  ->noActionOnUpdate()->noActionOnDelete();
         });
     }
     public function down(): void {
