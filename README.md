@@ -1,6 +1,9 @@
 # PSAK72  
 An App for Calculating PSAK72 (Revenue Recognition) with Laravel & SQL Server
 
+## Documentation
+* [PSAK72](docs/main.md)
+
 ## 📦 Requirements
 - Docker & Docker Compose
 - PHP 8.2+ (jika menjalankan Laravel di host)
